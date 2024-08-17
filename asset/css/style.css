@@ -21,28 +21,6 @@ body {
   height: 100%px;
   /*overflow: hidden;*/
 }
-/*========== Show ===========*/
-/* CSS cho màn hình nhỏ hơn (tablet) */
-@media (max-width: 768px) {
-  body {
-      font-size: 14px;
-  }
-
-  .container {
-      width: 90%;
-  }
-}
-
-/* CSS cho màn hình rất nhỏ (mobile) */
-@media (max-width: 480px) {
-  body {
-      font-size: 12px;
-  }
-
-  .container {
-      width: 100%;
-  }
-}
 /*========== Common ===========*/
 a {
   text-decoration: none;
